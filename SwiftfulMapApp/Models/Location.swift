@@ -1,6 +1,6 @@
 //
 //  Location.swift
-//  SwiftfulMapApp
+//  LocationTour
 //
 //  Created by Brandon Sams on 4/28/24.
 //

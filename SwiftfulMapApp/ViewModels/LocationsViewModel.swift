@@ -1,6 +1,6 @@
 //
 //  LocationsViewModel.swift
-//  SwiftfulMapApp
+//  LocationTour
 //
 //  Created by Brandon Sams on 4/28/24.
 //
@@ -26,7 +26,7 @@ class LocationsViewModel: ObservableObject {
 
     // Show list of locations
     @Published var showLocationsList: Bool = false
-    
+
     // Show location detail via sheet
     @Published var sheetLocation: Location? = nil
 
