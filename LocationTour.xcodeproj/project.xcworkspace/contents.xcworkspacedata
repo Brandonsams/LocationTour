@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/brandonsams/source/repos/SwiftfulMapApp/LocationTour.xcodeproj">
+      location = "self:/Users/brandonsams/source/repos/LocationTour/LocationTour.xcodeproj">
    </FileRef>
 </Workspace>
