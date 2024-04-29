@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		938B702D2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B702C2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift */; };
+		938B702D2BDED46B00BFF3FD /* LocationTour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B702C2BDED46B00BFF3FD /* LocationTour.swift */; };
 		938B702F2BDED46B00BFF3FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B702E2BDED46B00BFF3FD /* ContentView.swift */; };
 		938B703D2BDED54800BFF3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938B703C2BDED54800BFF3FD /* Assets.xcassets */; };
 		938B703F2BDED55700BFF3FD /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B703E2BDED55700BFF3FD /* LocationsDataService.swift */; };
@@ -23,7 +23,7 @@
 
 /* Begin PBXFileReference section */
 		938B70292BDED46B00BFF3FD /* LocationTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		938B702C2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulMapAppApp.swift; sourceTree = "<group>"; };
+		938B702C2BDED46B00BFF3FD /* LocationTour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTour.swift; sourceTree = "<group>"; };
 		938B702E2BDED46B00BFF3FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		938B703C2BDED54800BFF3FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		938B703E2BDED55700BFF3FD /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		938B70202BDED46B00BFF3FD = {
 			isa = PBXGroup;
 			children = (
-				938B702B2BDED46B00BFF3FD /* SwiftfulMapApp */,
+				938B702B2BDED46B00BFF3FD /* LocationTour */,
 				938B702A2BDED46B00BFF3FD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -65,20 +65,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		938B702B2BDED46B00BFF3FD /* SwiftfulMapApp */ = {
+		938B702B2BDED46B00BFF3FD /* LocationTour */ = {
 			isa = PBXGroup;
 			children = (
 				938B70562BDF329500BFF3FD /* Info.plist */,
 				938B703C2BDED54800BFF3FD /* Assets.xcassets */,
 				938B70482BDED82000BFF3FD /* Preview Content */,
-				938B702C2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift */,
+				938B702C2BDED46B00BFF3FD /* LocationTour.swift */,
 				938B702E2BDED46B00BFF3FD /* ContentView.swift */,
 				938B70452BDED75F00BFF3FD /* DataServices */,
 				938B70402BDED67500BFF3FD /* Models */,
 				938B70422BDED68A00BFF3FD /* ViewModels */,
 				938B70412BDED67F00BFF3FD /* Views */,
 			);
-			path = SwiftfulMapApp;
+			path = LocationTour;
 			sourceTree = "<group>";
 		};
 		938B70402BDED67500BFF3FD /* Models */ = {
@@ -200,7 +200,7 @@
 				938B704F2BDEE42900BFF3FD /* LocationsListView.swift in Sources */,
 				938B70512BDF09D400BFF3FD /* LocationPreviewView.swift in Sources */,
 				938B704D2BDEDBBE00BFF3FD /* LocationsViewModel.swift in Sources */,
-				938B702D2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift in Sources */,
+				938B702D2BDED46B00BFF3FD /* LocationTour.swift in Sources */,
 				938B704B2BDED94E00BFF3FD /* LocationsView.swift in Sources */,
 				938B70442BDED6B200BFF3FD /* Location.swift in Sources */,
 				938B70552BDF202400BFF3FD /* LocationDetailView.swift in Sources */,
