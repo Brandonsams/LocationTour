@@ -9,16 +9,33 @@
 /* Begin PBXBuildFile section */
 		938B702D2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B702C2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift */; };
 		938B702F2BDED46B00BFF3FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B702E2BDED46B00BFF3FD /* ContentView.swift */; };
-		938B70312BDED46C00BFF3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938B70302BDED46C00BFF3FD /* Assets.xcassets */; };
-		938B70342BDED46C00BFF3FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938B70332BDED46C00BFF3FD /* Preview Assets.xcassets */; };
+		938B703D2BDED54800BFF3FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938B703C2BDED54800BFF3FD /* Assets.xcassets */; };
+		938B703F2BDED55700BFF3FD /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B703E2BDED55700BFF3FD /* LocationsDataService.swift */; };
+		938B70442BDED6B200BFF3FD /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B70432BDED6B200BFF3FD /* Location.swift */; };
+		938B70492BDED82000BFF3FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 938B70472BDED82000BFF3FD /* Preview Assets.xcassets */; };
+		938B704B2BDED94E00BFF3FD /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B704A2BDED94E00BFF3FD /* LocationsView.swift */; };
+		938B704D2BDEDBBE00BFF3FD /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B704C2BDEDBBE00BFF3FD /* LocationsViewModel.swift */; };
+		938B704F2BDEE42900BFF3FD /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B704E2BDEE42900BFF3FD /* LocationsListView.swift */; };
+		938B70512BDF09D400BFF3FD /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B70502BDF09D400BFF3FD /* LocationPreviewView.swift */; };
+		938B70532BDF1B1C00BFF3FD /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B70522BDF1B1C00BFF3FD /* LocationMapAnnotationView.swift */; };
+		938B70552BDF202400BFF3FD /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 938B70542BDF202400BFF3FD /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		938B70292BDED46B00BFF3FD /* SwiftfulMapApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftfulMapApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		938B70292BDED46B00BFF3FD /* LocationTour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationTour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		938B702C2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulMapAppApp.swift; sourceTree = "<group>"; };
 		938B702E2BDED46B00BFF3FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		938B70302BDED46C00BFF3FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		938B70332BDED46C00BFF3FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		938B703C2BDED54800BFF3FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		938B703E2BDED55700BFF3FD /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		938B70432BDED6B200BFF3FD /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		938B70472BDED82000BFF3FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		938B704A2BDED94E00BFF3FD /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		938B704C2BDEDBBE00BFF3FD /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		938B704E2BDEE42900BFF3FD /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		938B70502BDF09D400BFF3FD /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		938B70522BDF1B1C00BFF3FD /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		938B70542BDF202400BFF3FD /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		938B70562BDF329500BFF3FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +60,7 @@
 		938B702A2BDED46B00BFF3FD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				938B70292BDED46B00BFF3FD /* SwiftfulMapApp.app */,
+				938B70292BDED46B00BFF3FD /* LocationTour.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,18 +68,59 @@
 		938B702B2BDED46B00BFF3FD /* SwiftfulMapApp */ = {
 			isa = PBXGroup;
 			children = (
+				938B70562BDF329500BFF3FD /* Info.plist */,
+				938B703C2BDED54800BFF3FD /* Assets.xcassets */,
+				938B70482BDED82000BFF3FD /* Preview Content */,
 				938B702C2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift */,
 				938B702E2BDED46B00BFF3FD /* ContentView.swift */,
-				938B70302BDED46C00BFF3FD /* Assets.xcassets */,
-				938B70322BDED46C00BFF3FD /* Preview Content */,
+				938B70452BDED75F00BFF3FD /* DataServices */,
+				938B70402BDED67500BFF3FD /* Models */,
+				938B70422BDED68A00BFF3FD /* ViewModels */,
+				938B70412BDED67F00BFF3FD /* Views */,
 			);
 			path = SwiftfulMapApp;
 			sourceTree = "<group>";
 		};
-		938B70322BDED46C00BFF3FD /* Preview Content */ = {
+		938B70402BDED67500BFF3FD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				938B70332BDED46C00BFF3FD /* Preview Assets.xcassets */,
+				938B70432BDED6B200BFF3FD /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		938B70412BDED67F00BFF3FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				938B704A2BDED94E00BFF3FD /* LocationsView.swift */,
+				938B704E2BDEE42900BFF3FD /* LocationsListView.swift */,
+				938B70502BDF09D400BFF3FD /* LocationPreviewView.swift */,
+				938B70522BDF1B1C00BFF3FD /* LocationMapAnnotationView.swift */,
+				938B70542BDF202400BFF3FD /* LocationDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		938B70422BDED68A00BFF3FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				938B704C2BDEDBBE00BFF3FD /* LocationsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		938B70452BDED75F00BFF3FD /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				938B703E2BDED55700BFF3FD /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
+		938B70482BDED82000BFF3FD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				938B70472BDED82000BFF3FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		938B70282BDED46B00BFF3FD /* SwiftfulMapApp */ = {
+		938B70282BDED46B00BFF3FD /* LocationTour */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 938B70372BDED46C00BFF3FD /* Build configuration list for PBXNativeTarget "SwiftfulMapApp" */;
+			buildConfigurationList = 938B70372BDED46C00BFF3FD /* Build configuration list for PBXNativeTarget "LocationTour" */;
 			buildPhases = (
 				938B70252BDED46B00BFF3FD /* Sources */,
 				938B70262BDED46B00BFF3FD /* Frameworks */,
@@ -82,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftfulMapApp;
+			name = LocationTour;
 			productName = SwiftfulMapApp;
-			productReference = 938B70292BDED46B00BFF3FD /* SwiftfulMapApp.app */;
+			productReference = 938B70292BDED46B00BFF3FD /* LocationTour.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +160,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 938B70242BDED46B00BFF3FD /* Build configuration list for PBXProject "SwiftfulMapApp" */;
+			buildConfigurationList = 938B70242BDED46B00BFF3FD /* Build configuration list for PBXProject "LocationTour" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +173,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				938B70282BDED46B00BFF3FD /* SwiftfulMapApp */,
+				938B70282BDED46B00BFF3FD /* LocationTour */,
 			);
 		};
 /* End PBXProject section */
@@ -125,8 +183,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				938B70342BDED46C00BFF3FD /* Preview Assets.xcassets in Resources */,
-				938B70312BDED46C00BFF3FD /* Assets.xcassets in Resources */,
+				938B70492BDED82000BFF3FD /* Preview Assets.xcassets in Resources */,
+				938B703D2BDED54800BFF3FD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +196,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				938B702F2BDED46B00BFF3FD /* ContentView.swift in Sources */,
+				938B70532BDF1B1C00BFF3FD /* LocationMapAnnotationView.swift in Sources */,
+				938B704F2BDEE42900BFF3FD /* LocationsListView.swift in Sources */,
+				938B70512BDF09D400BFF3FD /* LocationPreviewView.swift in Sources */,
+				938B704D2BDEDBBE00BFF3FD /* LocationsViewModel.swift in Sources */,
 				938B702D2BDED46B00BFF3FD /* SwiftfulMapAppApp.swift in Sources */,
+				938B704B2BDED94E00BFF3FD /* LocationsView.swift in Sources */,
+				938B70442BDED6B200BFF3FD /* Location.swift in Sources */,
+				938B70552BDF202400BFF3FD /* LocationDetailView.swift in Sources */,
+				938B703F2BDED55700BFF3FD /* LocationsDataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,17 +335,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulMapApp/Preview Content\"";
 				DEVELOPMENT_TEAM = P849M354UU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftfulMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Location Tour";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,17 +368,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftfulMapApp/Preview Content\"";
 				DEVELOPMENT_TEAM = P849M354UU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftfulMapApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Location Tour";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -325,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		938B70242BDED46B00BFF3FD /* Build configuration list for PBXProject "SwiftfulMapApp" */ = {
+		938B70242BDED46B00BFF3FD /* Build configuration list for PBXProject "LocationTour" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				938B70352BDED46C00BFF3FD /* Debug */,
@@ -334,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		938B70372BDED46C00BFF3FD /* Build configuration list for PBXNativeTarget "SwiftfulMapApp" */ = {
+		938B70372BDED46C00BFF3FD /* Build configuration list for PBXNativeTarget "LocationTour" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				938B70382BDED46C00BFF3FD /* Debug */,
